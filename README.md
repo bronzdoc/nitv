@@ -1,4 +1,4 @@
-# Nitv
+# Nitv [![Build Status](https://travis-ci.org/bronzdoc/nitv.svg)](https://travis-ci.org/bronzdoc/nitv)
 
 Minimal gem to validate NIT(Número de Identificación Tributaria) of Guatemala
 
