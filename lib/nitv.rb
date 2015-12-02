@@ -2,7 +2,7 @@ require "nitv/version"
 
 module Nitv
   def self.is_valid?(nit)
-    raise Nitv::NitFormatError unless /^[0-9]+-[0-9k]$/ =~ nit
+    raise Nitv::NitFormatError, "format should be e.g 1234567-8" unless /^[0-9]+-[0-9k]$/ =~ nit
 
     nums = nit[0, nit.index("-")].chars
     checker = nit.chars.last == "k" ? 10 : nit.chars.last.to_i
