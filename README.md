@@ -19,8 +19,10 @@ Or install it yourself as:
     $ gem install nitv
 
 ## Usage
-
-TODO: Write usage instructions here
+```ruby
+nit = "3602978-5"
+Nitv.is_valid? nit # => boolean
+```
 
 ## Development
 
@@ -30,7 +32,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/nitv. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/bronzdoc/nitv.
 
 
 ## License
