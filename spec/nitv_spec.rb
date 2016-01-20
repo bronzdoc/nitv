@@ -25,5 +25,11 @@ RSpec.describe Nitv do |config|
       end
     end
 
+    context "when Fixnum is given" do
+      it "should fail" do
+        nit = 36029785
+        expect { Nitv.is_valid?(nit) }.to raise_error Nitv::NitTypeError
+      end
+    end
   end
 end
